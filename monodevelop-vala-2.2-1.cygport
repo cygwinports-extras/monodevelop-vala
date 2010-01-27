@@ -1,0 +1,6 @@
+inherit mono
+
+DESCRIPTION="Mono IDE"
+HOMEPAGE="http://monodevelop.com/"
+
+MAKEOPTS+=" -j1"
