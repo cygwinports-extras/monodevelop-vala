@@ -1,0 +1,9 @@
+--- origsrc/monodevelop-vala-2.8.4.2/MonoDevelop.ValaBinding.dll.config	2011-11-30 14:29:32.000000000 -0600
++++ src/monodevelop-vala-2.8.4.2/MonoDevelop.ValaBinding.dll.config	2011-12-13 04:34:33.579435100 -0600
+@@ -1,4 +1,6 @@
+ <configuration>
+ 	<dllmap dll="vala" target="vala-0.12" />
+ 	<dllmap dll="afrodite" target="afrodite-0.12" />
++	<dllmap dll="vala" target="cygvala-0.12-0.dll" os="cygwin" />
++	<dllmap dll="afrodite" target="cygafrodite-0.12-2.dll" os="cygwin" />
+ </configuration>

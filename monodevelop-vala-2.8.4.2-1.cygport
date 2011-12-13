@@ -3,4 +3,7 @@ inherit mono
 DESCRIPTION="Mono IDE"
 HOMEPAGE="http://monodevelop.com/"
 
+PATCH_URI="2.8.4.2-cygwin-dllmap.patch
+           2.8.4.2-vpath.patch"
+
 MAKEOPTS+=" -j1"
